@@ -1,9 +1,10 @@
 package main
 
 import (
-	"os"
+	"github.com/q-job/job/internal/core/v1"
 )
 
 func main() {
-	os.Exit(1)
+	app := core.NewCore()
+	app.Run()
 }
