@@ -1,7 +1,7 @@
 package main
 
 import (
-	"github.com/q-job/job/internal/core/v1"
+	"github.com/q-job/job/v1/internal/core"
 )
 
 func main() {
